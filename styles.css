@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Oswald", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-left {
+  display: inline-block;
+  width: 60%;
+  margin: 15% 0 0 8%;
+}
+
+.container-right {
+  display: inline-block;
+  width: 40%;
+  background-color: rgb(93, 93, 125, 0.16);
+}
+
+img {
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+p {
+  width: 700px;
+  opacity: 0.7;
+}
+
+button {
+  margin-top: 2%;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.2;
+  color: white;
+  background-color: rgb(93, 93, 125);
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.4;
+}
+
+header {
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+a {
+  margin-left: 5px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+a:nth-child(2) {
+  opacity: 0.4;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+a:active {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+
+  .wrapper{
+    display: block;
+    width: 100%;
+  }
+
+
+  .container-left {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-right {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 10px;
+    margin: auto;
+  }
+
+  img {
+    position: static;
+    width: 80%;
+  }
+
+  header{
+    display: none;
+  }
+
+  h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  p{
+    width: 350px;
+    text-align: center;
+    margin: auto auto 20px auto;
+  }
+
+  button{
+    display: block;
+    margin: auto;
+    padding: auto;
+  }
+
+ 
+}
